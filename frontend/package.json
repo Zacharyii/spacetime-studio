@@ -1,0 +1,9 @@
+{
+  "name": "spacetime-studio-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "vite --host 127.0.0.1", "build": "tsc -b && vite build", "test": "vitest run" },
+  "dependencies": { "@vitejs/plugin-react": "5.1.1", "three": "0.181.1", "vite": "7.2.2", "react": "19.2.0", "react-dom": "19.2.0" },
+  "devDependencies": { "@types/react": "19.2.2", "@types/react-dom": "19.2.2", "@types/three": "0.181.0", "typescript": "5.9.3", "vitest": "4.0.8" }
+}
